@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".CreateAccount">
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dip"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="30dip"
+            android:layout_marginBottom="30dip"
+            android:layout_gravity="center">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/createaccounttitle_hint"
+                    android:layout_gravity="center"
+                    android:textSize="27dip"
+                    android:textColor="@android:color/holo_orange_dark"
+                    tools:ignore="SpUsage"/>
+        <EditText
+                android:layout_width="match_parent"
+                tools:ignore="Autofill"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dip"
+                android:hint="@string/mail_hint"
+                android:inputType="textEmailAddress|textNoSuggestions"
+                android:id="@+id/email"/>
+        <EditText
+                android:layout_width="match_parent"
+                tools:ignore="Autofill"
+                android:layout_marginTop="10dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:hint="@string/password_hint"
+                android:id="@+id/mdp1"
+                android:inputType="textPassword|textNoSuggestions"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                tools:ignore="Autofill"
+                android:layout_marginTop="10dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:hint="@string/confirmpassword_hint"
+                android:inputType="textPassword|textNoSuggestions"
+                android:id="@+id/mdp"/>
+
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dip"
+                android:text="@string/acceptCGU_hint"
+                android:textColor="@android:color/holo_green_dark"/>
+        <Button
+                android:layout_width="90dip"
+                android:layout_height="40dip"
+                android:layout_gravity="center"
+                android:hint="@string/signup_hint"
+                android:layout_marginTop="40dip"
+                android:onClick="creer"
+                android:background="@drawable/background3"
+                android:textColorHint="@color/common_google_signin_btn_text_light"
+                android:foreground="?selectableItemBackground"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Trouvy</string>
+    <string name="mail_hint">Adresse email</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="confirmpassword_hint">Confirmer mot de passe</string>
+    <string name="signup_hint">Créer</string>
+    <string name="signin_hint">Connexion</string>
+    <string name="connect">Veuillez vous connecter.</string>
+    <string name="noaccount_text">Pas de compte?</string>
+    <string name="newaccount_hint">Créer un nouveau compte</string>
+    <string name="addoffer_hint">Ajouter une offre</string>
+    <string name="titleoffer_hint">Titre de l\'offre*</string>
+    <string name="offerdescription_hint">Description de l\'offre*</string>
+    <string name="offerprice_hint">Prix*</string>
+    <string name="addofferbutton_hint">Ajouter une offre</string>
+    <string name="createaccounttitle_hint">Nouveau parmi nous?</string>
+    <string name="welcome_hint">Bienvenue!</string>
+    <string name="acceptCGU_hint">J\'ai lu et j\'accepte les <u>conditions d\'utilisation</u>.
+    </string>
+    <string name="description_hint">
+        <u>Description de l\'offre :</u>
+    </string>
+    <string name="titre_offre">Titre de l\'offre :</string>
+    <string name="empty_price">0€</string>
+    <string name="specify_cases">Veuillez remplir toutes les cases.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_offre_maps">Map</string>
+    <string name="champsvide">Ce champs ne peut être vide</string>
+    <string name="title_activity_maps_single_marker">Map</string>
+    <string name="takePhoto">Prendre une photo</string>
+    <string name="selectPhoto">Selectionner une photo</string>
+    <string name="cancel">Annuler</string>
+    <string name="addOffer">Ajouter une Offre</string>
+    <string name="addPhoto">Ajouter des photos</string>
+    <string name="cameraPermDenied">Camera Permission Denied</string>
+    <string name="storagePermDenied">Storage Permission Denied</string>
+    <string name="locationPermDenied">Location Permission Denied</string>
+    <string name="emailIsEmpty">L\'adresse email ne peut pas etre vide</string>
+    <string name="passwordNeed6char">Le mot de passe doit contenir au moins 6 charactères</string>
+    <string name="passwordsDoenstMatch">Les mots de passe de correspondent pas</string>
+    <string name="all">ALL</string>
+    <string name="top">TOP</string>
+    <string name="favorite">FAVORIS</string>
+    <string name="pleaseActivateGPS">Veuillez activer votre GPS</string>
+    <string name="askToDeleteOffer">Etes vous sur vouloir supprimer cette Offre ?</string>
+    <string name="back">Retour</string>
+    <string name="deleteOffer">Supprimer cette Offre</string>
+    <string name="passwordIsEmpty">Le mot de passe ne peut pas etre vide</string>
+</resources>

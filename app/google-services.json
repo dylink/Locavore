@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "733758235740",
+    "firebase_url": "https://locavore-6b889.firebaseio.com",
+    "project_id": "locavore-6b889",
+    "storage_bucket": "locavore-6b889.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733758235740:android:ba14db9ecd81cfe3313299",
+        "android_client_info": {
+          "package_name": "com.example.locavoreapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733758235740-k4r7mjtf8a9s4v6kp71scpmdehcjp3gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCxcd9ldnKLOlFKtqpFv7AWtjDueDfVzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733758235740-k4r7mjtf8a9s4v6kp71scpmdehcjp3gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
